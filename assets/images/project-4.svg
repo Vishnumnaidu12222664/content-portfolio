@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#141a18" />
+      <stop offset="100%" stop-color="#0a0c0b" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#bg4)"/>
+  <rect x="20" y="20" width="560" height="360" rx="14" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1.5"/>
+  <!-- FinTech Visual Card -->
+  <rect x="180" y="80" width="240" height="170" rx="12" fill="#14211b" stroke="rgba(255,255,255,0.12)" stroke-width="1.5"/>
+  <rect x="205" y="105" width="50" height="30" rx="6" fill="#10b981"/>
+  <text x="215" y="125" font-family="-apple-system, sans-serif" font-size="12" font-weight="800" fill="#ffffff">PAY</text>
+  <rect x="270" y="112" width="120" height="14" rx="4" fill="rgba(255,255,255,0.3)"/>
+  <line x1="205" y1="160" x2="395" y2="160" stroke="rgba(255,255,255,0.08)" stroke-width="1.5"/>
+  <text x="205" y="195" font-family="-apple-system, sans-serif" font-size="18" font-weight="700" fill="#ffffff">DIGIPE Socials</text>
+  <text x="205" y="220" font-family="-apple-system, sans-serif" font-size="11" fill="#10b981">Brand Engagement Rollout</text>
+  <!-- Badges -->
+  <rect x="40" y="45" width="130" height="28" rx="6" fill="rgba(16,185,129,0.15)" stroke="rgba(16,185,129,0.3)" stroke-width="1"/>
+  <text x="50" y="64" font-family="-apple-system, sans-serif" font-size="11" font-weight="700" fill="#34d399" letter-spacing="1">BRAND CAMPAIGN</text>
+  <text x="40" y="345" font-family="-apple-system, sans-serif" font-size="13" font-weight="600" fill="#ffffff">DIGIPE Brand Engagement Campaigns</text>
+  <text x="40" y="365" font-family="-apple-system, sans-serif" font-size="11" fill="#9a9da6">Shankar Group FinTech Content</text>
+  <text x="480" y="355" font-family="-apple-system, sans-serif" font-size="12" font-weight="700" fill="#34d399">FINTECH</text>
+</svg>

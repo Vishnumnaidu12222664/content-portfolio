@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="100%" height="100%">
+  <defs>
+    <linearGradient id="heroBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#181a20" />
+      <stop offset="50%" stop-color="#101114" />
+      <stop offset="100%" stop-color="#090a0c" />
+    </linearGradient>
+    <radialGradient id="subtleGlow" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#ff4d36" stop-opacity="0.12" />
+      <stop offset="100%" stop-color="#ff4d36" stop-opacity="0" />
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(255,255,255,0.03)" stroke-width="1" />
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="1000" fill="url(#heroBg)" />
+  <rect width="800" height="1000" fill="url(#subtleGlow)" />
+  <rect width="800" height="1000" fill="url(#grid)" />
+
+  <!-- Outer frame border -->
+  <rect x="24" y="24" width="752" height="952" rx="20" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1.5" />
+
+  <!-- Camera Viewfinder UI Elements -->
+  <!-- Top Corners -->
+  <path d="M 44 70 L 44 44 L 70 44" fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="2.5" stroke-linecap="round" />
+  <path d="M 756 70 L 756 44 L 730 44" fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="2.5" stroke-linecap="round" />
+  <!-- Bottom Corners -->
+  <path d="M 44 930 L 44 956 L 70 956" fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="2.5" stroke-linecap="round" />
+  <path d="M 756 930 L 756 956 L 730 956" fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="2.5" stroke-linecap="round" />
+
+  <!-- Camera / Director HUD -->
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" letter-spacing="2" fill="rgba(255,255,255,0.5)">
+    <!-- REC indicator -->
+    <circle cx="64" cy="90" r="5" fill="#ff4d36" />
+    <text x="78" y="94" fill="#ff4d36">REC 4K</text>
+    <text x="650" y="94">60 FPS // LOG</text>
+    <text x="64" y="910">ISO 400</text>
+    <text x="660" y="910">9:16 VERTICAL</text>
+  </g>
+
+  <!-- Center Framing Reticle -->
+  <circle cx="400" cy="460" r="140" fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="1.5" stroke-dasharray="6 6" />
+  <line x1="380" y1="460" x2="420" y2="460" stroke="rgba(255,255,255,0.2)" stroke-width="1.5" />
+  <line x1="400" y1="440" x2="400" y2="480" stroke="rgba(255,255,255,0.2)" stroke-width="1.5" />
+
+  <!-- Monogram & Editorial Typography -->
+  <g text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif">
+    <!-- Stylized Monogram badge -->
+    <circle cx="400" cy="420" r="70" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.12)" stroke-width="1.5" />
+    <text x="400" y="445" font-size="54" font-weight="800" fill="#f4f4f6" letter-spacing="4">VN</text>
+
+    <!-- Professional Name & Role -->
+    <text x="400" y="550" font-size="20" font-weight="700" fill="#ffffff" letter-spacing="4">VISHNUM NAIDU</text>
+    <text x="400" y="580" font-size="13" font-weight="500" fill="#9a9da6" letter-spacing="3">PORTFOLIO VISUAL</text>
+
+    <!-- Helpful Drop-in instruction badge -->
+    <rect x="250" y="650" width="300" height="44" rx="22" fill="rgba(255, 77, 54, 0.1)" stroke="rgba(255, 77, 54, 0.3)" stroke-width="1" />
+    <text x="400" y="677" font-size="12" font-weight="600" fill="#ff7a66" letter-spacing="1">DROP YOUR PHOTO HERE</text>
+    <text x="400" y="720" font-size="11" fill="rgba(255,255,255,0.4)" letter-spacing="0.5">assets/images/vishnum-photo.jpg</text>
+  </g>
+</svg>
